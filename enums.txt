@@ -230,8 +230,8 @@ REF	http://en.wikipedia.org/wiki/Major_Arcana
 ID	E000015
 NAME	suits of Minor Arcana, suit cards in a Tarot deck
 VALUE	"wands", "batons", "clubs", "staves"
-VALUE	"cups", "chalices"
-VALUE	"swords"
+VALUE	"cups", "chalices", "goblets"
+VALUE	"swords", "blades"
 VALUE	"pentacles", "coins", "disks", "rings"
 TAGS	DEF FIN GAM
 REF	http://en.wikipedia.org/wiki/Minor_Arcana
@@ -1867,6 +1867,8 @@ TAGS	DEF INF ORD NUM
 
 ID	E000080
 NAME	SI unit prefixes
+VALUE	"quecto"
+VALUE	"ronto"
 VALUE	"yocto"
 VALUE	"zepto"
 VALUE	"atto"
@@ -1877,7 +1879,7 @@ VALUE	"micro"
 VALUE	"milli"
 VALUE	"centi"
 VALUE	"deci"
-VALUE	"deca"
+VALUE	"deca", "deka"
 VALUE	"hecto"
 VALUE	"kilo"
 VALUE	"mega"
@@ -1887,6 +1889,8 @@ VALUE	"peta"
 VALUE	"exa"
 VALUE	"zetta"
 VALUE	"yotta"
+VALUE	"ronna"
+VALUE	"quetta"
 TAGS	DEF FIN ORD SCI
 
 ID	E000081
@@ -1899,6 +1903,8 @@ VALUE	"peta"
 VALUE	"exa"
 VALUE	"zetta"
 VALUE	"yotta"
+VALUE	"ronna"
+VALUE	"quetta"
 OFFSET	1
 TAGS	DEF FIN ORD SCI
 
@@ -1912,6 +1918,8 @@ VALUE	"femto"
 VALUE	"atto"
 VALUE	"zepto"
 VALUE	"yocto"
+VALUE	"ronto"
+VALUE	"quecto"
 OFFSET	1
 TAGS	DEF FIN ORD SCI
 
@@ -6097,3 +6105,33 @@ VALUE	"O+"
 VALUE	"O-"
 TAGS	DEF FIN PAR SCI BIO
 REF	https://en.wikipedia.org/wiki/Blood_type
+
+ID	E000237
+NAME	two modes of the bagua
+VALUE	"yang"
+VALUE	"yin"
+TAGS	DEF FIN
+REF	https://en.wikipedia.org/wiki/Bagua
+
+ID	E000238
+NAME	four images of the bagua
+VALUE	"greater yang"
+VALUE	"lesser yin"
+VALUE	"lesser yang"
+VALUE	"greater yin"
+TAGS	DEF FIN
+REF	https://en.wikipedia.org/wiki/Bagua
+
+ID	E000239
+NAME	eight trigrams of the bagua
+VALUE	"heaven"
+VALUE	"lake"
+VALUE	"flame"
+VALUE	"thunder"
+VALUE	"wind"
+VALUE	"water"
+VALUE	"mountain"
+VALUE	"earth"
+TAGS	DEF FIN
+REF	https://en.wikipedia.org/wiki/Bagua
+
